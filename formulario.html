@@ -1,45 +1,101 @@
 <!DOCTYPE html>
 
 <html>
-	<BODY BACKGROUND="https://Daniolo0589.github.io/KingdomCake/Imagenes/Pastelero.jpg">
-    <body>
-	<h1 align="center">Formulario de registro</h1>
-        <form action="https://daniolo0589.github.io/KingdomCake/registro.html" enctype="multipart/form-data" method="get" align="center">
-			USUARIO:<input type="text" name="usuario"> <br>
+  <body background="https://Daniolo0589.github.io/KingdomCake/Imagenes/Pastelero.jpg"> 
+	<h1 align="center">Formulario </h1>
+	<table width="1000"><tr><td>
+	<p>
+	  <form action="https://adreuw489.github.io/formula1adrian/registro.html" enctype="multipart/form-data" method="get" align="center">
+		<fieldset>
+			<legend> FORMULARIO DE PEDIDO</legend>
+			<table width="700" cellpadding=5><tr>
+			<tr><td><strong> > Paso 1. Identificación </strong></td></tr>
+		<td>	<fieldset>	
+		  	<legend>Datos del Cliente</legend><br>
+			USUARIO: <input type="text" name="usuario"> <br>
 			CONTRASEÑA: <input type="password" name="pass"> <br>
 			SOCIO: <input type="checkbox" name="socio" checked> <br>
 			SEXO: <input type="radio" name="genero" value="m"> Masculino
 			<input type="radio" name="genero" value="f"> Femenino <br>
-			CORREO ELECTRÓNICO:<input type="text" name="correo" value="@gmail.com"> <br>
-			<table align="center">
-				<tr>
-					<td>
-					<select size="7" multiple="multiple"> 
-						<optgroup label="Tipo de dulce favorito">
-							<option>Pastel</option>
-							<option>Tarta</option>
-							<option>Caramelo</option>
-							<option>Bombones</option>
-							<option>Helado</option>
-							<option>Postres</option>
-						</optgroup>
-						<optgroup label="Extras">
-							<option>Batido de chocolate</option>
-							<option>Algodon de azucar</option>
-						</optgroup>
-						
-					</select>
-					</td>
-					<td>
-						Comentarios. <br>
-						<textarea rows="5" cols="50"> escriba aquí sus comentarios</textarea>
-					</td>
-				</tr>
-			</table>
-			<br>
-			<input type="checkbox" value="1" checked="checked">
-			Acepto las condiciones.
-			<input type="submit" value="enviar">
+			</fieldset>
+		</td>
+		<td> 	<fieldset>
+			<legend> Tipo de Cliente </legend><br>
+			<input type="radio" id="particular" name="tipo" checked>
+			<label for="particular">Particular</label><br>
+			<input type="radio" id="asociacion" name="tipo">
+			<label for="asociacion">Asociacion</label><br>
+			<input type="radio" id="empresa" name="tipo">
+			<label for="empresa">Empresa</label><br>
+			</fieldset>
+		</td></table>
+
+		<table width=980 cellpadding=5>
+		<tr><td><strong> > Paso 2. Pedido <br> </strong></td></tr>
+		<tr>
+		<td>	
+			<fieldset>
+			<legend> Datos del Producto </legend>
+			Producto <br>
+				<select id="producto" name="producto" size="7" multiple="si">
+					<optgroup label="Equipos">
+						<option> Red bull</option>
+						<option> Ferrari</option>
+						<option> Aston Martín</option>
+						<option> Williams</option>
+						<option> Mercedes</option>
+						<option> McLaren</option>
+					<optgroup>
+					<optgroup label="Figuras">
+						<option> Coches escala 1/43</option>
+						<option> Funkos</option>
+					<optgroup>
+				</select>
+			</fieldset>
+		</td>
+		<td>	<fieldset>	
+	  			<legend> Información de interés </legend>
+	  			Comentarios <br>
+				<textarea  rows="6" cols="60"> Escriba aquí sus comentarios </textarea>
+				<br><input type="checkbox" id="publi" value="si" checked><label for "publi"> Acepto recibir información publicitaria </label>
+			</fieldset>
+		</td>
+		</tr>
+		</table>
+		
+		<table width="980" cellpadding=5>
+		<tr>
+			<td><fieldset>
+				<legend> Datos del Envío </legend> <br>
+				<label for "dire"> Dirección </label>
+				<input type="text" id="dire" size="40">
+				<br><label for "ciudad">Ciudad</label>
+				<input type="text" id="ciudad" size="20">
+				<label for "cp">Código Postal</label>
+				<input type="text" id="cp" size="5">
+			</fieldset>
+			</td>
+			<td><fieldset>
+				<legend>Datos Bancarios</legend><br>
+				<label for "entidad"> Nombre de la Entidad</label>
+				<input type="text" id="entidad" size="20"><br>
+				<label for "cuenta">Nº de cuenta </label>
+				<input type="text" id="entidad" size="20">
+			</fieldset>
+			</td>
+			</tr>
+		<tr>
+			<input type="hidden" name="fecha" value=""> <br>
+			<td><input type="submit" value="enviar"></td>
+			<td><input type="reset" value="reset"></td>
+			<td><input type="checkbox" value="1" checked="checked"> Acepto las condiciones </input></td>
+			<td><input type="button" value="salir"
+				onclick="window.close();"></td>
+		</tr>
+		</table>
+		</fieldset>
+	  	</p>
 		</form>
-    </body>
+	</table>
+  </body>
 </html>
