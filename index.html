@@ -1,79 +1,109 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Postres</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image:url('https://Daniolo0589.github.io/KingdomCake/Imagenes/fondoideal.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+    }
 
-<html>
-	<head lang="es">
-		<title>KingdomCake</title>
-		<base href="https://Daniolo0589.github.io/KingdomCake/">
-		<meta name="author" content="Daniel Álvarez Pastor" />	
-		<meta name="description" content="" />
-		<meta name="keywords" content="tarta, postres, japones, italiano" />
-		<meta name="date" content="18-09-2023" />
-		<meta charset="utf-8" />
-		<link rel="shortcut icon" type="image/x-icon" href="https://Daniolo0589.github.io/KingdomCake/Imagenes/nuevologo.png">
-		<link rel="stylesheet" type="text/css" href="http://Daniolo0589.github.io/estilos.css">
-		<style type="text/css">
-		body {
-			margin-left: 40px;
-			margin-top: 10px;
-			margin-right: 40px;
-			background-image:url('https://Daniolo0589.github.io/KingdomCake/Imagenes/fondoideal.jpg');
-   			background-repeat: no-repeat;
-			background-size: cover;
-		 }
-		header {
-			  border: 1px solid;
-		}
-		#container, #links {
-			    border: 1px solid;
-		}
-		td.fress {
-			position: relative;
-			left: 350px;
-		}
-		td.vanila {
-			position: relative;
-			left: 690px;
-		}
-		
-		</style>
-	</head>
-	<body id="cuerpo">
-		<header>
-		<table>
-			<tr>
-				<td width="680"> <img alt="logo" src="https://Daniolo0589.github.io/KingdomCake/Imagenes/nuevologo.png" width="300" heigth="200"> </td>
-				<td width="650"> <h1>Pastelería y postres</h1> </td>
-				<td>
-					<div style="text-align:center;padding:1em 0;"> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=large&timezone=Europe%2FMadrid" width="100%" height="140" frameborder="0" seamless></iframe> </div>
-				</td>
-			</tr>
-		</table>
-		</header>
-		<div id="links">
-		<a href="https://Daniolo0589.github.io/KingdomCake/formulario.html"> Registrarse </a>
-		</div>
-		<div id="container">
-		<table>
-			<tr>
-				<td class= Choco>
-					<h1 align="center">Chocolate</h1>
-					<img src="https://Daniolo0589.github.io/KingdomCake/Imagenes/Chocolate.jpg" align="center" width="300" heigth="200" class="chocolate">
-				</td>
-				<td class="fress">
-					<h1 align="center">Fresa</h1>
-					<img src="https://Daniolo0589.github.io/KingdomCake/Imagenes/fresa.jpg" align="center" width="300" heigth="200" class="fresa">
-				</td>
-				<td class="vanila">
-					<h1 align="center">Vainilla</h1>
-					<img src="https://Daniolo0589.github.io/KingdomCake/Imagenes/vainilla.jpg" width="300" heigth="200" align="center" class="vainilla">
-					
-				</td>
-			</tr>
-		</table>	
-		</div>
-		<a href="https://www.olvidona.com/"><h2>OLVIDONA by Jordi Wild</h2></a>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/9ZzVQSTNrDI?si=zyQmGJIzpVv7Vyh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		<br>
-		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional</a>.
-	</body>		
-</html>
+    header {
+      background-color: #000000;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2em;
+    }
+
+    .dessert {
+      width: 30%;
+      margin: 1em;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1em;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .dessert img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda de Postres</h1>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section>
+    <div class="dessert">
+      <img src="pastel1.jpg" alt="Pastel de Chocolate">
+      <h2>Pastel de Chocolate</h2>
+      <p>Delicioso pastel de chocolate con frosting cremoso.</p>
+      <p>Precio: $24.99</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <div class="dessert">
+      <img src="cupcake1.jpg" alt="Cupcake de Fresa">
+      <h2>Cupcake de Fresa</h2>
+      <p>Esponjoso cupcake de fresa con decoración colorida.</p>
+      <p>Precio: $3.99</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <!-- Agrega más postres según sea necesario -->
+
+    <div class="dessert">
+      <img src="helado1.jpg" alt="Helado de Vainilla">
+      <h2>Helado de Vainilla</h2>
+      <p>Clásico helado de vainilla con toppings a elección.</p>
+      <p>Precio: $6.99</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <!-- Agrega más postres según sea necesario -->
+
+  </section>
+
+</body>
+</html
