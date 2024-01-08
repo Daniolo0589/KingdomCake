@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Aquí viene un comentario -->
+<postres>
+
+	<postre id="1">
+		<nombre> coulant de chocolate </nombre>
+		<sabor> chocolate </sabor>
+	</postre>
+		
+	<postre id="2">
+		<nombre> yougurt de fresa </nombre>
+		<sabor> fresa </sabor>
+	</postre>
+		
+	<postre id="3">
+		<nombre> flan de vainilla </nombre>
+		<sabor> vainilla </sabor>
+	</postre>
+
+</postres>
