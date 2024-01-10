@@ -21,4 +21,34 @@
 		<precio> 10.99€ </precio>
 	</postre>
 
+	<postre id="4">
+		<nombre> Pie de Fresa </nombre>
+		<sabor> fresa </sabor>
+		<precio> 19.99€ </precio>
+	</postre>
+
+	<postre id="5">
+		<nombre> Helado de Fresa </nombre>
+		<sabor> fresa </sabor>
+		<precio> 7.99€ </precio>
+	</postre>
+
+	<postre id="5">
+		<nombre> Pastel de chocolate </nombre>
+		<sabor> chocolate </sabor>
+		<precio> 11.99€ </precio>
+	</postre>
+
+	<postre id="6">
+		<nombre> Helado de Chocolate </nombre>
+		<sabor> chocolate </sabor>
+		<precio> 7.99€ </precio>
+	</postre>
+
+	<postre id="7">
+		<nombre> Pastel de chocolate </nombre>
+		<sabor> chocolate </sabor>
+		<precio> 11.99€ </precio>
+	</postre>
+
 </postres>
