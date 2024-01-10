@@ -1,0 +1,8 @@
+<!ELEMENT postres (postre+)>
+<!ELEMENT postre (nombre,sabor,precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sabor (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST postre
+                      id CDATA #REQUIRED
+  >
