@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="https://daniolo0589.github.io/KingdomCake/estiloxml.css"?>
 <!DOCTYPE postres SYSTEM "postres.dtd">
-<postres>
+<postres xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="postres.xsd">
 
 	<postre id="1">
 		<nombre> coulant de chocolate </nombre>
@@ -33,22 +33,22 @@
 		<precio> 7.99€ </precio>
 	</postre>
 
-	<postre id="5">
+	<postre id="6">
 		<nombre> Pastel de chocolate </nombre>
 		<sabor> chocolate </sabor>
 		<precio> 11.99€ </precio>
 	</postre>
 
-	<postre id="6">
+	<postre id="7">
 		<nombre> Helado de Chocolate </nombre>
 		<sabor> chocolate </sabor>
 		<precio> 7.99€ </precio>
 	</postre>
 
-	<postre id="7">
+	<postre id="8">
 		<nombre> Pastel de chocolate </nombre>
 		<sabor> chocolate </sabor>
 		<precio> 11.99€ </precio>
 	</postre>
 
-</postres>
+</postres> 
